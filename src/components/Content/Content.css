@@ -1,0 +1,12 @@
+.cont {
+    height: 100%;
+    padding: 16px 20px;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: 10% 80% 10%;
+    grid-gap: 16px;
+    grid-template-areas: 's s s s s s s s s s s s'
+                         't t t t t t t t t t t t'
+                         'c c c c c c c c c c c c';
+    overflow-y: auto;
+}
